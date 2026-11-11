@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0a0a0c">
+<title>Dubai Nexus AI — Enterprise Agent</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="shell">
+<header class="topbar"><div class="brand"><span class="mark">N</span><div><strong>DUBAI NEXUS <i>AI</i></strong><small data-i18n="sub">ذكاء تشغيلي مؤسسي مستقل</small></div></div>
+<div class="top-actions"><span class="live"><b></b><span data-i18n="system">النظام التجريبي متصل</span></span><button id="lang" class="lang">EN</button></div></header>
+<main>
+<section class="hero"><div class="eyebrow" data-i18n="eyebrow">منصة الوكلاء المؤسسية · الإمارات</div><h1 data-i18n="headline">حوّل قراراتك إلى <em>إنجازات</em></h1><p data-i18n="intro">وكيل ذكي يخطط، يراجع الصلاحيات، ويحوّل الأعمال المتكررة إلى عمليات قابلة للتدقيق.</p></section>
+<section class="workspace">
+<div class="panel composer"><div class="panel-head"><div><span class="kicker" data-i18n="workspace">مساحة العمل</span><h2 data-i18n="ask">ما المهمة التي تريد إنجازها؟</h2></div><span class="shield">◈ <span data-i18n="guard">تنفيذ محكوم بالصلاحيات</span></span></div>
+<textarea id="request" rows="4" data-placeholder="اكتب طلبك بالعربية أو الإنجليزية..."></textarea>
+<div class="compose-foot"><span data-i18n="hint">لن ينفذ النظام إجراءات خارجية دون موافقة.</span><button id="run" class="primary"><span data-i18n="build">حلّل الطلب</span><span>↗</span></button></div>
+</div>
+<div class="panel result"><div class="panel-head"><div><span class="kicker" data-i18n="execution">محرك التنفيذ</span><h2 data-i18n="plan">خطة العمل</h2></div><span class="tag" id="state" data-i18n="waiting">بانتظار الطلب</span></div>
+<div id="empty" class="empty"><div class="orb">✳</div><strong data-i18n="emptyTitle">جاهز لتحويل طلبك إلى خطوات</strong><p data-i18n="emptyText">ستظهر هنا الخطة وحالة الموافقات وسجل التنفيذ.</p></div><div id="output" class="output" hidden></div></div>
+</section>
+<section class="metrics"><div><small data-i18n="metric1">حوكمة الإجراءات</small><strong>Policy-first</strong></div><div><small data-i18n="metric2">نمط التشغيل</small><strong>Human-in-the-loop</strong></div><div><small data-i18n="metric3">الاعتماديات</small><strong>Zero runtime deps</strong></div></section>
+</main><footer><span>DUBAI NEXUS AI</span><span data-i18n="footer">نموذج أولي مستقل · بيانات تجريبية فقط</span></footer>
+</div><script src="/app.js"></script></body></html>
