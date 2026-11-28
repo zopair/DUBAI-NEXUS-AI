@@ -69,3 +69,19 @@ The next engineering step is a documented product brief and architecture decisio
 Requested repository attribution: **Aly Hussein Zopair (علي حسين زبير ALY HUSSEIN ZOPAIR)**.
 
 This attribution does not create a software license or claim rights over third-party components that may be added later.
+
+## Conceptual Architecture
+
+No architecture or AI capability is currently implemented. This diagram records the minimum decision sequence before selecting a model or service:
+
+```mermaid
+flowchart TD
+  P[Approved project brief] --> D[Problem and data boundaries]
+  D --> A[Architecture and deployment decision]
+  A --> V[First verifiable prototype]
+  V --> E[Evaluation and human review]
+```
+
+## Change log
+
+- 2026-11-28 — Added a conceptual decision flow and documentation baseline. No product features or integrations were claimed.
